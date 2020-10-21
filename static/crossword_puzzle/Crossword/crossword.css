@@ -1,0 +1,100 @@
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(1, 157, 149);;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+hr {
+  border-top: 2px dotted #fff;
+}
+
+
+
+
+
+
+#puzzle {
+    width:100%;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.square{
+    width:30px;
+    height:30px;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    position: relative;
+}
+
+.empty{
+    background-color:white;
+}
+
+.letter{
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+#puzzle_container{
+    float: left;
+    width:50%
+    height: 50%;
+}
+
+#hints_container{
+    float: left;
+    width:50%
+    height: 50%;
+    margin-left: 25px;
+}
+
+#buttons_container{
+    clear: both;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+
+.active{
+    border-color: red;
+}
+
+.question_number{
+    position: absolute;
+    font-size: 12px;
+    color: grey;
+    left: 3px;
+    top: 3px;
+}
+
+td{
+    position:relative;
+}
+
+.heading {
+    position: relative;
+    left: 90%;
+    transform: translateX(-50%);
+    font-size: 30px;
+}
